@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <span>user name:</span> <br>
+  <input 
+    type="text"
+    name="firstname"
+    value=""
+    placeholder="YOURNAME"
+  >
+  <br>
+  <span>password:</span> <br>
+  <input 
+    type="password" 
+    name="password" 
+    value="" 
+    placeholder="your password"
+    >
+  <br><br>
+  <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female<br><br>
+  <select name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br>
+  <input type="checkbox" name="skil" value="html">html
+  <input type="checkbox" name="skil" value="css">css
+  <input type="checkbox" name="skil" value="java">java
+  <br>
+  <input type="submit" value="Send">
+  <button>send2</button>
+</form> 
+<a href="https://www.google.com/">google</a>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
